@@ -88,22 +88,39 @@ The pipeline follows a layered analytics architecture from data generation throu
 
 .
 ├── README.md
+
 ├── report/
+
 │   └── Report.pdf
+
 ├── docs/
+
 │   ├── architecture_diagram.png
+
 │   └── dashboard_screenshots/
+
 ├── notebooks/
+
 │   ├── Notebook1.ipynb
+
 │   ├── Notebook2.ipynb
+
 │   ├── Notebook3.ipynb
+
 │   └── Notebook4.ipynb
+
 ├── data/
+
 │   ├── raw/              
+
 │   └── generated/        
+
 ├── bi_outputs/           
+
 ├── src/                  
+
 ├── requirements.txt
+
 └── .gitignore
 
 ---
