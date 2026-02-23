@@ -86,32 +86,25 @@ The pipeline follows a layered analytics architecture from data generation throu
 
 ## Repository Structure
 
-Data/
-DB/
-Generated/
-Real/
-
-Py/
-generate_pharm_data.py
-generate_synthetic_data.py
-ref_build_drugs.py
-
-R/
-arima_refill_forecasts.R
-Chi-Square_ins_vs_rx.R
-
-SQL/
-schema.sql
-queries.sql
-
-Notebooks/
-Notebook1.ipynb
-Notebook2.ipynb
-Notebook3.ipynb
-Notebook4.ipynb
-
-bi_outputs/
-forecast/
+.
+├── README.md
+├── report/
+│   └── Report.pdf
+├── docs/
+│   ├── architecture_diagram.png
+│   └── dashboard_screenshots/
+├── notebooks/
+│   ├── Notebook1.ipynb
+│   ├── Notebook2.ipynb
+│   ├── Notebook3.ipynb
+│   └── Notebook4.ipynb
+├── data/
+│   ├── raw/              
+│   └── generated/        
+├── bi_outputs/           
+├── src/                  
+├── requirements.txt
+└── .gitignore
 
 ---
 
