@@ -72,7 +72,7 @@ Analyzes revenue distribution by insurance type and examines the relationship be
 The pipeline follows a layered analytics architecture from data generation through BI visualization.
 
 ![Architecture]
-(images/architecture_diagram.png.PNG)
+(images/architecture_diagram.png)
 
 ### Flow
 
