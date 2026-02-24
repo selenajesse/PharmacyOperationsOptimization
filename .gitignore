@@ -5,3 +5,5 @@ __pycache__/
 *.pbix.autosave
 .DS_Store
 .idea/
+.ipynb_checkpoints/
+notebooks/.ipynb_checkpoints/

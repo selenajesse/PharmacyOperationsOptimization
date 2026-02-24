@@ -1,8 +1,6 @@
 pandas
 numpy
-matplotlib
 scikit-learn
+matplotlib
+seaborn
 jupyter
-ipykernel
-pip install pipreqs
-pipreqs . --force
