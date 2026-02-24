@@ -71,8 +71,7 @@ Analyzes revenue distribution by insurance type and examines the relationship be
 
 The pipeline follows a layered analytics architecture from data generation through BI visualization.
 
-![Architecture]
-(images/architecture_diagram.png)
+![Architecture](images/architecture_diagram.png)
 
 ### Flow
 
@@ -86,41 +85,25 @@ The pipeline follows a layered analytics architecture from data generation throu
 
 ## Repository Structure
 
+```text
 .
 ├── README.md
-
 ├── report/
-
 │   └── Report.pdf
-
 ├── docs/
-
 │   ├── architecture_diagram.png
-
 │   └── dashboard_screenshots/
-
 ├── notebooks/
-
 │   ├── Notebook1.ipynb
-
 │   ├── Notebook2.ipynb
-
 │   ├── Notebook3.ipynb
-
 │   └── Notebook4.ipynb
-
 ├── data/
-
-│   ├── raw/              
-
-│   └── generated/        
-
-├── bi_outputs/           
-
-├── src/                  
-
+│   ├── raw/              # optional, small samples only
+│   └── generated/        # synthetic outputs
+├── bi_outputs/           # ONLY what Power BI imports
+├── src/                  # if you have scripts
 ├── requirements.txt
-
 └── .gitignore
 
 ---
