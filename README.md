@@ -105,7 +105,7 @@ The pipeline follows a layered analytics architecture from data generation throu
 ├── src/                  # if you have scripts
 ├── requirements.txt
 └── .gitignore
-
+```
 ---
 
 ## Key Outputs
