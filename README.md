@@ -190,7 +190,6 @@ Load data from:
 
 ```
 bi_outputs/
-forecast/projected_staffing_by_hour.csv
 ```
 
 Then refresh the model.
