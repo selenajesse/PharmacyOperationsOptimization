@@ -4,3 +4,4 @@ __pycache__/
 *.pkl
 *.pbix.autosave
 .DS_Store
+.idea/
