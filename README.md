@@ -14,7 +14,7 @@ Key outcomes include:
 
 - Improved visibility into peak workload periods  
 - Identification of staffing imbalances  
-- Forecast driven inventory planning  
+- Forecast-driven inventory planning  
 - Revenue distribution analysis across insurance types and drug classes  
 
 The resulting dashboard provides pharmacy leadership with actionable insights for workforce planning and financial optimization.
@@ -23,7 +23,7 @@ The resulting dashboard provides pharmacy leadership with actionable insights fo
 
 ## Dashboard Overview
 
-The Power BI dashboard is organized into five analytical views.
+The Power BI dashboard imports only `/bi_outputs` and uses `date_table` for relationships. It is organized into five analytical views. 
 
 ---
 
@@ -99,10 +99,10 @@ The pipeline follows a layered analytics architecture from data generation throu
 │   ├── Notebook3.ipynb
 │   └── Notebook4.ipynb
 ├── data/
-│   ├── raw/              # optional, small samples only
-│   └── generated/        # synthetic outputs
-├── bi_outputs/           # ONLY what Power BI imports
-├── src/                  # if you have scripts
+│   ├── raw/              
+│   └── generated/        
+├── bi_outputs/           
+├── src/                  
 ├── requirements.txt
 └── .gitignore
 ```
