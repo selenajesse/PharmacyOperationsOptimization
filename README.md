@@ -1,6 +1,6 @@
 # Pharmacy Operations Optimization
 
-End to end analytics pipeline for forecasting prescription demand, optimizing staffing coverage, and analyzing pharmacy revenue performance within a simulated long term care pharmacy environment.
+End-to-end analytics pipeline for forecasting prescription demand, optimizing staffing coverage, and analyzing pharmacy revenue performance within a simulated long-term care pharmacy environment.
 
 This project integrates Python, SQL, R, and Power BI to deliver a unified decision support framework for operational and financial planning.
 
@@ -29,7 +29,7 @@ The Power BI dashboard is organized into five analytical views.
 
 ### Executive Overview
 
-Provides high level KPIs including total prescriptions, forecast accuracy, inventory turnover, and revenue metrics.
+Provides high-level KPIs, including total prescriptions, forecast accuracy, inventory turnover, and revenue metrics.
 
 ![Executive Overview](images/executive_overview.png)
 
@@ -150,7 +150,7 @@ The pipeline follows a layered analytics architecture from data generation throu
 ## Data Sources
 
 - Drug reference data derived from OpenFDA NDC Directory  
-- All patient level and operational data are synthetically generated for privacy protection  
+- All patient-level and operational data are synthetically generated for privacy protection  
 
 ---
 
