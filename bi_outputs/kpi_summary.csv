@@ -1,0 +1,5 @@
+metric,value,unit,source_file,notes
+Total Forecast Demand,119764.0,units,forecast_demand_by_class_day.csv,Summed 'ForecastQty'
+Total Projected Staffing,26613.0,staff-units,projected_staffing_by_hour.csv,Summed 'ScheduledStaff'
+Average Inventory Turnover,0.2178,turns,inventory_turnover.csv,Uses '__OVERALL__' if present; else sum(AnnualizedRx)/sum(OnHand).
+Total Revenue,15144809.69,USD,revenue_by_insurance_type.csv,Summed 'Revenue'
