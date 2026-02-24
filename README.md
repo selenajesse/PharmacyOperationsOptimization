@@ -210,6 +210,5 @@ Then refresh the model.
 
 ## Author
 
-**Selena Davis**  
+**Selena Jesse Davis**  
 BS Mathematics, Indiana University East  
-Focus: Predictive analytics, optimization, and healthcare operations
