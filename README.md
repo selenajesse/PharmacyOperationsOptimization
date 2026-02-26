@@ -25,6 +25,10 @@ The resulting dashboard provides pharmacy leadership with actionable insights fo
 
 The Power BI dashboard imports only `/bi_outputs` and uses `date_table` for relationships. It is organized into five analytical views. 
 
+Download the interactive Power BI dashboard:
+
+📊 `docs/powerbi/PharmacyOperationsDashboard.pbix`
+
 ---
 
 ### Executive Overview
