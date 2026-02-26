@@ -115,6 +115,14 @@ The pipeline follows a layered analytics architecture from data generation throu
 │       ├── inventory.csv
 │       ├── sales.csv
 │       └── staffschedule.csv
+├── forecast/               
+│   ├── daily_demand_by_class.csv
+│   ├── daily_class_features.csv
+│   ├── model_metrics_by_class.csv
+│   ├── forecast_6m_by_class.csv
+│   ├── predictions_daily_class.csv
+│   ├── inventory_suggestions_by_class.csv
+│   └── projected_staffing_by_hour.csv
 ├── bi_outputs/              
 │   ├── date_table.csv
 │   ├── forecast_demand_by_class_day.csv
