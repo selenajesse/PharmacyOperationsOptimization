@@ -10,3 +10,4 @@ notebooks/.ipynb_checkpoints/
 **/.ipynb_checkpoints/
 .ipynb_checkpoints/
 .ipynb_checkpoints/
+data/generated/drug_class_map.csv
