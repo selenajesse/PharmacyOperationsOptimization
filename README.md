@@ -92,9 +92,11 @@ The pipeline follows a layered analytics architecture from data generation throu
 .
 ├── README.md
 ├── report/
-│   └── Report.pdf
+│   └── report.pdf
 ├── docs/
 │   ├── architecture_diagram.png
+│   ├── powerbi/
+│   │   └── PharmacyOperationsOptimization.pbix
 │   └── dashboard_screenshots/
 ├── notebooks/
 │   ├── Notebook1.ipynb
@@ -102,10 +104,27 @@ The pipeline follows a layered analytics architecture from data generation throu
 │   ├── Notebook3.ipynb
 │   └── Notebook4.ipynb
 ├── data/
-│   ├── raw/              
-│   └── generated/        
-├── bi_outputs/           
-├── src/                  
+│   ├── real/               
+│   │   ├── products.csv
+│   │   ├── prescriptions_by_class.csv
+│   │   ├── ref_drugs.csv
+│   │   └── ref_drugname_class_map.csv
+│   └── generated/          
+│       ├── patients.csv
+│       ├── prescriptions.csv
+│       ├── inventory.csv
+│       ├── sales.csv
+│       └── staffschedule.csv
+├── bi_outputs/              
+│   ├── date_table.csv
+│   ├── forecast_demand_by_class_day.csv
+│   ├── inventory_turnover.csv
+│   ├── kpi_summary.csv
+│   ├── prescription_volume_by_class_day.csv
+│   ├── prescription_volume_by_day.csv
+│   ├── projected_staffing_by_hour.csv
+│   ├── revenue_by_insurance_type.csv
+│   └── revenue_rx_by_insurance_day.csv
 ├── requirements.txt
 └── .gitignore
 ```
